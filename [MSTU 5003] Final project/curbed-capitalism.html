@@ -1,0 +1,91 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style-sheet.css">
+    <script src="/script.js"></script>  
+</head>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="hero col-xs-12 col-md-12 display-1">
+			CURBED CAPITALISM
+			<p class="display-6">
+				a film by Cacau Araujo
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-4 left-column h3 px-5 py-5" style="font-weight: 900">
+			About the film
+			<p class="h6">
+				"There's no free lunch" is one of the main adages of capitalism, but in high-cost New York City, one might find by the curb a free dining table set to enjoy their meals. Could the most expensive city in the US be an oasis of free stuff? Through random street encounters and by following professional "stoopers", this film explores the unspoken codes of stooping and an informal economy emerging from it.
+			</p>
+			<p class="h6 pt-3">
+				Enter your email below to know when the film is out</p>
+			<p>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's email">
+				<button class="btn btn-outline-dark" type="button" onclick="subscriptionAlert()">Go <i class="far fa-paper-plane"></i></button>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4 mid-column h3 px-5  py-5" style="font-weight: 900">
+			Best days to stoop
+			<p class="h6">
+				Check out below the best days to find jaw-dropping curb offers in your neighborhood:
+			</p>
+			<p class="h6">
+				<select onchange="filterBoroughs(event)">
+					<option value="none" checked>Choose</option>
+					<option value="The Bronx" checked>The Bronx</option>
+					<option value="Brooklyn" checked>Brooklyn</option>
+				</select>
+			</p>
+			<div class="borough-box border border-dark p-3 mb-2">
+				<!--> <div class="img" src http://eqode.org/curbed-capitalism/assets/saketh-garuda-63zxrVxgYVQ-unsplash.jpg style="display:none">
+				</div><!-->
+				<div id="boroughsList">
+					<!--> <style="display: none;"><!-->
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 right-column h3 px-5  py-5" style="font-weight: 900">
+			<div class="row">
+				Send us your stooping story
+				<div class="stooping-stories h6">
+					I stoop, you stoop, we all stoop. Share your stooping story using the form below.
+				</div>
+				<div class="col stoop-form h6">
+					<input class="my-1" type="text" placeholder="Your ZIP Code" id="stoopStoryZip validationDefault03" required>
+					<input class="my-2" id="stoopStoryZip" type="text" placeholder="Tell us what you found">
+					<input class="form-control" type="file" id="formFile">
+					<button type="submit" class="btn btn-light my-2">Send</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="row">
+	<div class="about">
+		<p class="pt-5 px-5" style="font-weight: 900">ABOUT CACAU ARAUJO
+		</p>
+		<div class="row about">
+			<div class="col-sm-8 col-md-6 col-lg-9 col-xl-9 pb-5 px-5">
+				Cacau Araujo is a Brazilian storyteller based in New York. As a writer and a filmmaker in the making, she has experience developing non-fiction audiovisual projects and campaigning for impact films. Currently, she is a graduate student at the Documentary Media Studies program at The New School, where she wants to further explore and uncover her authorship as a filmmaker. Click to know more about Cacau.
+			</div>
+			<div class="col-sm-4 col-md-6 col-lg-3 col-xl-3 px-5 about-img">
+				<img src="https://media-exp1.licdn.com/dms/image/C5603AQG7iXhiJuUPYQ/profile-displayphoto-shrink_800_800/0/1633096072146?e=1645056000&v=beta&t=cDXYbdIglaCU12ivmRPPlz9LT8yIz3j1vlr4JLxlCLg" alt="" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="footer pt-5 pb-5 px-5">
+		Made with <i class="fas fa-heart"></i> in the Autumn of 2021
+		<p>This website is an experiment and part of the requirements for Teachers College's introductory class on the theory and programming of interactive media</p>
+	</div>
+
+</div>
+
+</div>
+</div>

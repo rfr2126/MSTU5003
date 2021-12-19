@@ -1,0 +1,59 @@
+.hero {
+  /*  background-image: url("http://eqode.org/curbed-capitalism/assets/andrea-cau-nV7GJmSq3zc-unsplash.jpg");*/
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  font-weight: 900;
+  color: yellow;
+  filter: grayscale(100%);
+}
+
+.content-columns {
+  color: white;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: -0.5em;
+}
+
+.footer {
+  text-align: center;
+  background-color: #071e22;
+  color: #f6d0b1;
+}
+
+.left-column {
+  background-color: #f6d0b1;
+}
+
+.mid-column {
+  background-color: #638475;
+}
+
+.right-column {
+  background-color: #b8f3ff;
+}
+
+.about-img {
+  filter: grayscale(100%);
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
+
+#videoBG {
+  position: fixed;
+  z-index: -1;
+  margin-top: -3em;
+  margin-bottom: -3em;
+}
+
+body {
+  background: url("poster.jpg");
+  background-size: cover;
+}
